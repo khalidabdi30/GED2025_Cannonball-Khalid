@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{82aa670f-3819-4212-a2b0-68bd7928c48d}</ProjectGuid>
+    <RootNamespace>Game</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)DirectXTK-main\Inc;$(SolutionDir)..\..\bullet3\src</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)DirectXTK-main\Inc;$(SolutionDir)..\..\bullet3\src</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>Default</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AudioSystem.h" />
+    <ClInclude Include="BananaPowerUp.h" />
+    <ClInclude Include="BulletCMOGO.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="CameraFactory.h" />
+    <ClInclude Include="CMOGO.h" />
+    <ClInclude Include="ConstantBuffer.h" />
+    <ClInclude Include="DrawData.h" />
+    <ClInclude Include="DrawData2D.h" />
+    <ClInclude Include="fileVBGO.h" />
+    <ClInclude Include="FPSCamera.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="FSMState.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="gameobject.h" />
+    <ClInclude Include="GameObject2D.h" />
+    <ClInclude Include="GamePadPhysCMOGO.h" />
+    <ClInclude Include="GameState.h" />
+    <ClInclude Include="GeoPrim.h" />
+    <ClInclude Include="GO2DFactory.h" />
+    <ClInclude Include="GOFactory.h" />
+    <ClInclude Include="helper.h" />
+    <ClInclude Include="ImageGO2D.h" />
+    <ClInclude Include="Light.h" />
+    <ClInclude Include="LightFactory.h" />
+    <ClInclude Include="LookAtCamera.h" />
+    <ClInclude Include="Loop.h" />
+    <ClInclude Include="MinimapCamera.h" />
+    <ClInclude Include="PauseLogo.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="PhysCMOGO.h" />
+    <ClInclude Include="PhysicsGO.h" />
+    <ClInclude Include="PlayerObject.h" />
+    <ClInclude Include="PowerUp.h" />
+    <ClInclude Include="PowerUpBox.h" />
+    <ClInclude Include="PowerUpFactory.h" />
+    <ClInclude Include="PowerUpHandler.h" />
+    <ClInclude Include="PowerUpTypes.h" />
+    <ClInclude Include="RenderTarget.h" />
+    <ClInclude Include="RTImage.h" />
+    <ClInclude Include="Sound.h" />
+    <ClInclude Include="SoundFactory.h" />
+    <ClInclude Include="SpeedBoostPowerUp.h" />
+    <ClInclude Include="ShieldPowerUp.h" />
+    <ClInclude Include="ShellPowerUp.h" />
+    <ClInclude Include="SpinOutPowerUp.h" />
+    <ClInclude Include="stringHelp.h" />
+    <ClInclude Include="TestSound.h" />
+    <ClInclude Include="TextGO2D.h" />
+    <ClInclude Include="VBCube.h" />
+    <ClInclude Include="VBGO.h" />
+    <ClInclude Include="VBPillow.h" />
+    <ClInclude Include="VBSnail.h" />
+    <ClInclude Include="VBspiral.h" />
+    <ClInclude Include="vertex.h" />
+    <ClInclude Include="ViewportCam.h" />
+    <ClInclude Include="WorldLimit.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AudioSystem.cpp" />
+    <ClCompile Include="BananaPowerUp.cpp" />
+    <ClCompile Include="BulletCMOGO.cpp" />
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="CameraFactory.cpp" />
+    <ClCompile Include="CMOGO.cpp" />
+    <ClCompile Include="fileVBGO.cpp" />
+    <ClCompile Include="FPSCamera.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="gameobject.cpp" />
+    <ClCompile Include="GameObject2D.cpp" />
+    <ClCompile Include="GamePadPhysCMOGO.cpp" />
+    <ClCompile Include="GeoPrim.cpp" />
+    <ClCompile Include="GO2DFactory.cpp" />
+    <ClCompile Include="GOFactory.cpp" />
+    <ClCompile Include="ImageGO2D.cpp" />
+    <ClCompile Include="light.cpp" />
+    <ClCompile Include="LightFactory.cpp" />
+    <ClCompile Include="LookAtCamera.cpp" />
+    <ClCompile Include="Loop.cpp" />
+    <ClCompile Include="MinimapCamera.cpp" />
+    <ClCompile Include="PauseLogo.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="PhysCMOGO.cpp" />
+    <ClCompile Include="PhysicsGO.cpp" />
+    <ClCompile Include="PlayerObject.cpp" />
+    <ClCompile Include="PowerUp.cpp" />
+    <ClCompile Include="PowerUpBox.cpp" />
+    <ClCompile Include="PowerUpFactory.cpp" />
+    <ClCompile Include="PowerUpHandler.cpp" />
+    <ClCompile Include="RenderTarget.cpp" />
+    <ClCompile Include="RTImage.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="SoundFactory.cpp" />
+    <ClCompile Include="SpeedBoostPowerUp.cpp" />
+    <ClCompile Include="ShieldPowerUp.cpp" />
+    <ClCompile Include="ShellPowerUp.cpp" />
+    <ClCompile Include="SpinOutPowerUp.cpp" />
+    <ClCompile Include="TestSound.cpp" />
+    <ClCompile Include="TextGO2D.cpp" />
+    <ClCompile Include="VBCube.cpp" />
+    <ClCompile Include="VBGO.cpp" />
+    <ClCompile Include="VBSnail.cpp" />
+    <ClCompile Include="ViewportCam.cpp" />
+    <ClCompile Include="WorldLimit.cpp" />
+    <ClCompile Include="$(SolutionDir)..\..\bullet3\src\LinearMath\**\*.cpp">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\..\bullet3\src\BulletCollision\**\*.cpp">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\..\bullet3\src\BulletDynamics\**\*.cpp">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

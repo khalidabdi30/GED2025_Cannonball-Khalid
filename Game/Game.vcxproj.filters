@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game Objects">
+      <UniqueIdentifier>{88b64271-fabb-4f34-82af-23ac68df3f93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\2D">
+      <UniqueIdentifier>{54abf057-cdc2-4744-b01c-5ba34c7c2bb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\3D">
+      <UniqueIdentifier>{0f940146-5bdd-4d95-8f3e-e06e6f3f6d73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\2D\Headers">
+      <UniqueIdentifier>{67a9bcb9-ec36-4af4-8716-121c2ecfa20e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\2D\Source">
+      <UniqueIdentifier>{6c68bd3f-4359-451f-9ceb-51aeb1178645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\3D\GO3D">
+      <UniqueIdentifier>{3cae98b1-7487-44f3-92ca-09b060ec04f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\3D\GO3D\Headers">
+      <UniqueIdentifier>{babc785e-3cd7-4330-9d49-ba30410ea4f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\3D\GO3D\Source">
+      <UniqueIdentifier>{29b2f350-b45c-43fa-8c5b-8da8652dad44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\3D\Cameras">
+      <UniqueIdentifier>{4545d210-389a-4ddb-b1a9-0631fb699c87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\3D\Cameras\Headers">
+      <UniqueIdentifier>{8e68f7c6-696a-40d9-94ef-98211479a590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\3D\Cameras\Source">
+      <UniqueIdentifier>{3aa8251a-1648-46f4-9952-fc17bb58ab9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\3D\Lights">
+      <UniqueIdentifier>{cd17e431-7dce-4b5e-b6ff-e7fd438420bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\3D\Lights\Headers">
+      <UniqueIdentifier>{bb04a3b9-45d7-4154-9fca-050e1462d436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\3D\Lights\Source">
+      <UniqueIdentifier>{d0a4d362-11a1-4436-bf61-9b8132fae33b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{293fa546-f37b-4924-a80e-70dcba754067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Main\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{c5990c3b-8f60-4b36-bbf5-bdb4a6e527a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound\Headers">
+      <UniqueIdentifier>{0fa18f7f-3240-4af0-aa20-f7371d97e2a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound\Source">
+      <UniqueIdentifier>{877993d5-0f7c-453c-8fbf-9d689143a677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Header Files\Power Ups">
+      <UniqueIdentifier>{09352847-643e-40fe-a661-cd462c28f2b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Source Files\Power Ups">
+      <UniqueIdentifier>{2889c1a6-9857-4517-a5df-91df2d0f129c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FSMState.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="helper.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stringHelp.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawData2D.h">
+      <Filter>Game Objects\2D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GO2DFactory.h">
+      <Filter>Game Objects\2D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageGO2D.h">
+      <Filter>Game Objects\2D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseLogo.h">
+      <Filter>Game Objects\2D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextGO2D.h">
+      <Filter>Game Objects\2D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject2D.h">
+      <Filter>Game Objects\2D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Game Objects\3D\Cameras\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraFactory.h">
+      <Filter>Game Objects\3D\Cameras\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FPSCamera.h">
+      <Filter>Game Objects\3D\Cameras\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LookAtCamera.h">
+      <Filter>Game Objects\3D\Cameras\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewportCam.h">
+      <Filter>Game Objects\3D\Cameras\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Game Objects\3D\Lights\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LightFactory.h">
+      <Filter>Game Objects\3D\Lights\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CMOGO.h">
+      <Filter>Game Objects\3D\GO3D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBuffer.h">
+      <Filter>Game Objects\3D\GO3D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="fileVBGO.h">
+      <Filter>Game Objects\3D\GO3D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gameobject.h">
+      <Filter>Game Objects\3D\GO3D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePadPhysCMOGO.h">
+      <Filter>Game Objects\3D\GO3D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GOFactory.h">
+      <Filter>Game Objects\3D\GO3D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysCMOGO.h">
+      <Filter>Game Objects\3D\GO3D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsGO.h">
+      <Filter>Game Objects\3D\GO3D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VBCube.h">
+      <Filter>Game Objects\3D\GO3D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VBGO.h">
+      <Filter>Game Objects\3D\GO3D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VBPillow.h">
+      <Filter>Game Objects\3D\GO3D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VBSnail.h">
+      <Filter>Game Objects\3D\GO3D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VBspiral.h">
+      <Filter>Game Objects\3D\GO3D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vertex.h">
+      <Filter>Game Objects\3D\GO3D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawData.h">
+      <Filter>Game Objects\3D\GO3D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Loop.h">
+      <Filter>Sound\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Sound\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundFactory.h">
+      <Filter>Sound\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TestSound.h">
+      <Filter>Sound\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTarget.h">
+      <Filter>Game Objects\3D\Cameras\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RTImage.h">
+      <Filter>Game Objects\2D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoPrim.h">
+      <Filter>Game Objects\3D\GO3D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletCMOGO.h">
+      <Filter>Game Objects\3D\GO3D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldLimit.h">
+      <Filter>Game Objects\3D\GO3D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioSystem.h">
+      <Filter>Sound\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SpeedBoostPowerUp.h">
+      <Filter>Main\Header Files\Power Ups</Filter>
+    </ClInclude>
+    <ClInclude Include="BananaPowerUp.h">
+      <Filter>Main\Header Files\Power Ups</Filter>
+    </ClInclude>
+    <ClInclude Include="ShieldPowerUp.h">
+      <Filter>Main\Header Files\Power Ups</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellPowerUp.h">
+      <Filter>Main\Header Files\Power Ups</Filter>
+    </ClInclude>
+    <ClInclude Include="SpinOutPowerUp.h">
+      <Filter>Main\Header Files\Power Ups</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerObject.h">
+      <Filter>Main\Header Files\Power Ups</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerUp.h">
+      <Filter>Main\Header Files\Power Ups</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerUpHandler.h">
+      <Filter>Main\Header Files\Power Ups</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerUpBox.h">
+      <Filter>Main\Header Files\Power Ups</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerUpTypes.h">
+      <Filter>Main\Header Files\Power Ups</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerUpFactory.h">
+      <Filter>Main\Header Files\Power Ups</Filter>
+    </ClInclude>
+    <ClInclude Include="MinimapCamera.h">
+      <Filter>Game Objects\3D\Cameras\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Main\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Main\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject2D.cpp">
+      <Filter>Game Objects\2D\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GO2DFactory.cpp">
+      <Filter>Game Objects\2D\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageGO2D.cpp">
+      <Filter>Game Objects\2D\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseLogo.cpp">
+      <Filter>Game Objects\2D\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TextGO2D.cpp">
+      <Filter>Game Objects\2D\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Game Objects\3D\Cameras\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraFactory.cpp">
+      <Filter>Game Objects\3D\Cameras\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FPSCamera.cpp">
+      <Filter>Game Objects\3D\Cameras\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="LookAtCamera.cpp">
+      <Filter>Game Objects\3D\Cameras\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewportCam.cpp">
+      <Filter>Game Objects\3D\Cameras\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>Game Objects\3D\Lights\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="LightFactory.cpp">
+      <Filter>Game Objects\3D\Lights\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CMOGO.cpp">
+      <Filter>Game Objects\3D\GO3D\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="fileVBGO.cpp">
+      <Filter>Game Objects\3D\GO3D\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="gameobject.cpp">
+      <Filter>Game Objects\3D\GO3D\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePadPhysCMOGO.cpp">
+      <Filter>Game Objects\3D\GO3D\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GOFactory.cpp">
+      <Filter>Game Objects\3D\GO3D\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysCMOGO.cpp">
+      <Filter>Game Objects\3D\GO3D\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsGO.cpp">
+      <Filter>Game Objects\3D\GO3D\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="VBCube.cpp">
+      <Filter>Game Objects\3D\GO3D\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="VBGO.cpp">
+      <Filter>Game Objects\3D\GO3D\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="VBSnail.cpp">
+      <Filter>Game Objects\3D\GO3D\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Loop.cpp">
+      <Filter>Sound\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Sound\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundFactory.cpp">
+      <Filter>Sound\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TestSound.cpp">
+      <Filter>Sound\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTarget.cpp">
+      <Filter>Game Objects\3D\Cameras\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="RTImage.cpp">
+      <Filter>Game Objects\2D\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoPrim.cpp">
+      <Filter>Game Objects\3D\GO3D\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletCMOGO.cpp">
+      <Filter>Game Objects\3D\GO3D\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldLimit.cpp">
+      <Filter>Game Objects\3D\GO3D\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioSystem.cpp">
+      <Filter>Sound\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeedBoostPowerUp.cpp">
+      <Filter>Main\Source Files\Power Ups</Filter>
+    </ClCompile>
+    <ClCompile Include="BananaPowerUp.cpp">
+      <Filter>Main\Source Files\Power Ups</Filter>
+    </ClCompile>
+    <ClCompile Include="ShieldPowerUp.cpp">
+      <Filter>Main\Source Files\Power Ups</Filter>
+    </ClCompile>
+    <ClCompile Include="ShellPowerUp.cpp">
+      <Filter>Main\Source Files\Power Ups</Filter>
+    </ClCompile>
+    <ClCompile Include="SpinOutPowerUp.cpp">
+      <Filter>Main\Source Files\Power Ups</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerObject.cpp">
+      <Filter>Main\Source Files\Power Ups</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerUp.cpp">
+      <Filter>Main\Source Files\Power Ups</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerUpHandler.cpp">
+      <Filter>Main\Source Files\Power Ups</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerUpBox.cpp">
+      <Filter>Main\Source Files\Power Ups</Filter>
+    </ClCompile>
+    <ClCompile Include="MinimapCamera.cpp">
+      <Filter>Game Objects\3D\Cameras\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerUpFactory.cpp">
+      <Filter>Main\Source Files\Power Ups</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
